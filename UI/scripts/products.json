@@ -1,0 +1,133 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "APPLE MACBOOK PRO 15\"",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./UI/images/1-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "APPLE MACBOOK 12\"",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./UI/images/2-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "LENOVO IDEAPAD",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./UI/images/3-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "ASUS ZENBOOK",
+          "price": 22.99,
+          "image": { "fields": { "file": { "url": "./UI/images/4-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "DELL XPS 15 - SILVER",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./UI/images/5-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "APPLE MACBOOK AIR 13\"",
+          "price": 32.99,
+          "image": { "fields": { "file": { "url": "./UI/images/6-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "DELL INSPIRON - GRAY",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./UI/images/7-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "LENOVO YOGA",
+          "price": 33.99,
+          "image": { "fields": { "file": { "url": "./UI/images/8-medium.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "QUEEN PANEL BED",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-1.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "KING PANEL BED",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-2.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "SINGLE PANEL BED",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-3.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "TWIN PANEL BED",
+          "price": 22.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-4.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "FRIDGE",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-5.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "DRESSER",
+          "price": 32.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-6.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "COUCH",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-7.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "TABLE",
+          "price": 33.99,
+          "image": { "fields": { "file": { "url": "./UI/images/product-8.jpeg" } } }
+        }
+      }
+    ]
+  }
+  

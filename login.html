@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f034b3503b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./UI/css/style.css" />
+    <title>Manila Shop</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header class="navbar">
+      <nav>
+          <!--Logo-->
+          <div class="logo">
+              <a href="./index.html">
+                  <!-- <img src="images/logo.png"  alt="Logo"> -->
+                  <h4>Manila Shop</h4>
+              </a>
+          </div>
+          <label for="btn" class="icon">
+              <span class="menu__bars"><img src="/UI/icons/iconmonstr-menu-5.svg"></span>
+          </label>
+          <input type="checkbox" id="btn">
+          <!--Start of Navigation-Links-->
+          <ul>
+              <li>
+                  <!-- <label>Catalogue</label>   -->
+                  <label for="btn-2" class="show">Catalog ></label>
+                  <a href="#">Catalog</a>
+                  <input type="checkbox" id="btn-2">
+                  <ul>
+                      <li>
+                          <label for="btn-3" class="show">Phones &amp; Tablets ></label>
+                          <a href="#">
+                              <!-- <img src="images/phones.svg" alt="Phones &amp; Tablets"> -->
+                              Phones &amp; Tablets
+                          </a>
+                          <input type="checkbox" id="btn-3">
+                          <ul>
+                              <li><a href="#">Phones</a></li>
+                              <li><a href="#">Tablets</a></li>
+                              <li><a href="#">Accessories</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <label for="btn-4" class="show">Home &amp; Office ></label>
+                          <a href="#">
+                              <!-- <img src="images/home & office.jpg" alt="Home &amp; Office"> -->
+                              Home &amp; Office
+                          </a>
+                          <input type="checkbox" id="btn-4">
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Office</a></li>
+                              <li><a href="#">Other Utilities</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <label for="btn-5" class="show">Health &amp; Beauty ></label>
+                          <a href="#">
+                              <!-- <img src="images/health & beauty.png" alt="Health &amp; Beauty"> -->
+                              Health &amp; Beauty
+                          </a>
+                          <input type="checkbox" id="btn-5">
+                          <ul>
+                              <li>
+                                  <a href="#">Health</a>
+                              </li>
+                              <li>
+                                  <a href="#">Beauty</a>
+                              </li>
+                              <li>
+                                  <a href="#">Saloon</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <label for="btn-6" class="show">Games &amp; Entertainment ></label>
+                          <a href="#">
+                              <!-- <img src="images/games.svg" alt="Games &amp;  Entertainment"> -->
+                              Games &amp; Entertainment
+                          </a>
+                          <input type="checkbox" id="btn-6">
+                          <ul>
+                              <li>
+                                  <a href="#">Gaming consoles</a>
+                              </li>
+                              <li>
+                                  <a href="#">Games</a>
+                              </li>
+                              <li>
+                                  <a href="#">Software</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <label for="btn-7" class="show">Photography ></label>
+                          <a href="#">
+                              <!-- <img src="images/photo.svg" alt="Photo">  -->
+                              Photography
+                          </a>
+                          <input type="checkbox" id="btn-7">
+                          <ul>
+                              <li><a href="#">Cameras</a></li>
+                              <li><a href="#">Lenses</a></li>
+                              <li><a href="#">Accessories</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  <label for="btn-9" class="show">Account ></label>
+                  <a href="#">Account </a>
+                  <input type="checkbox" id="btn-9">
+                  <ul>
+                      <li><a href="./signup.html">Create account</a></li>
+                      <li><a href="./login.html">Log-in</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <!-- <span id="search-icon" class="nav-icon"><i class="fas fa-search" onclick=""></i></span> -->
+                  <!-- <label for="btn-10" class="show"></label> -->
+                  <div class="search-box">
+                      <input class="search-text" type="text" name="search" placeholder="search.." />
+                      <a class="search-btn" href="#">
+                          <i class="fas fa-search" onclick=""></i>
+                      </a>
+                  </div>
+                  <!-- <input type="checkbox" id="btn-10"> -->
+              </li>
+              <li>
+                  <div class='cart-btn'>
+                      <span class="nav-icon"><i class="fas fa-cart-plus"></i></span>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+  </header>
+      <!--End of Header Section-->
+      <br>
+      <br>
+  <!-- End of Navigation bar -->
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Log In</h2>
+        <div class="form-control">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Enter username.." />
+          <small>Error</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Enter email.." />
+          <small>Error</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter password.." />
+          <small>Error</small>
+        </div>
+        <button type="submit" onclick="window.location.href='./products.html'">LogIn</button>
+      </form>
+    </div>
+    <script src="./UI/scripts/slide_background.js"></script>
+    <script>
+        slide_background("body",
+    
+          {
+            slide: ["UI/images/bags.jpg", "UI/images/hero-bcg.jpeg", "UI/images/product-2.jpeg", "UI/images/product-4.jpeg", "UI/images/product-5.jpeg", "UI/images/product-6.jpeg", "UI/images/product-7.jpeg", "UI/images/product-8.jpeg"],
+    
+            delay: [2000, 2000, 2000, 2000, 2000]
+          }
+    
+    
+        );
+    </script>
+    <script src="./UI/scripts/main.js"></script>
+    <script src="./UI/scripts/index.js"></script>
+  </body>
+</html>
